@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "Cosmic Rain",
   "description": "A dark VS Code theme inspired by cosmic vibes, featuring soft pastel tones of purple, yellow, and blue. Ideal for a calming and immersive coding experience.",
-  "publisher": "unknown",
+  "publisher": "andersonmm",
   "license": "MIT",
   "engines": {
     "vscode": "^1.60.0"

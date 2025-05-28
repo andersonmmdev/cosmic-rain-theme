@@ -1,0 +1,5 @@
+.vscode/
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
