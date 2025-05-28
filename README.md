@@ -11,7 +11,6 @@
 ```bash
 git clone https://github.com/Andersonmdev/cosmic-rain-theme.git
 cd cosmic-rain-theme
-code .
 npx @vscode/vsce package
 code --install-extension cosmic-rain-theme-1.0.0.vsix
 ```
