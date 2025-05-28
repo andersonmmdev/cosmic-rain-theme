@@ -1,0 +1,38 @@
+{
+  "name": "cosmic-rain-theme",
+  "version": "1.0.0",
+  "displayName": "Cosmic Rain",
+  "description": "A dark VS Code theme inspired by cosmic vibes, featuring soft pastel tones of purple, yellow, and blue. Ideal for a calming and immersive coding experience.",
+  "publisher": "unknown",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode",
+    "theme",
+    "dark"
+  ],
+  "author": {
+    "name": "Anderson Magro Mattei",
+    "email": "andersonmmdev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andersonmdev/cosmic-rain-theme"
+  },
+  "homepage": "https://github.com/Andersonmdev/cosmic-rain-theme#readme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cosmic Rain Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-rain-dark.json"
+      }
+    ]
+  }
+}
