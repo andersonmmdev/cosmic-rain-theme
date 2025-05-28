@@ -15,3 +15,5 @@ code .
 npx @vscode/vsce package
 code --install-extension cosmic-rain-theme-1.0.0.vsix
 ```
+
+> [vscode settings](https://github.com/Andersonmdev/cosmic-rain-theme/blob/main/.vscode/settings.json)

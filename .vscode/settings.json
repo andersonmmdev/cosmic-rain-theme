@@ -43,11 +43,8 @@
   "editor.guides.indentation": false,
   "editor.guides.highlightActiveIndentation": false,
   "editor.overviewRulerBorder": false,
-  "editor.inlineSuggest.enabled": true,
   "editor.hideCursorInOverviewRuler": true,
   "editor.semanticHighlighting.enabled": false,
   "editor.bracketPairColorization.enabled": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": false,
   "symbols.hidesExplorerArrows": true
 }
