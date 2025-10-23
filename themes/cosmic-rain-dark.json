@@ -163,7 +163,8 @@
         "punctuation.terminator.statement",
         "meta.template.expression",
         "support.type.property-name.css",
-        "entity.other.attribute-name.css"
+        "entity.other.attribute-name.css",
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#C5C8C6"
@@ -171,7 +172,6 @@
     },
     {
       "scope": [
-        "meta.object-literal.key",
         "entity.other.keyframe-offset.css",
         "support.type.property-name.media.css",
         "variable.css",
@@ -183,7 +183,9 @@
       }
     },
     {
-      "scope": ["markup.italic.markdown"],
+      "scope": [
+        "markup.italic.markdown"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
@@ -217,7 +219,10 @@
       }
     },
     {
-      "scope": ["comment", "string.quoted.docstring.multi"],
+      "scope": [
+        "comment",
+        "string.quoted.docstring.multi"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#4a5568"
@@ -230,7 +235,6 @@
         "variable.other.object.property",
         "keyword.operator.new",
         "variable.other.class",
-        "variable.language.this",
         "string.other.link",
         "meta.embedded.expression",
         "meta.link.inline.markdown",
@@ -242,7 +246,9 @@
       }
     },
     {
-      "scope": ["support.class.component"],
+      "scope": [
+        "support.class.component"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#528dcc"
@@ -266,6 +272,15 @@
     },
     {
       "scope": [
+        "meta.type.parameters.ts"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#b392f0"
+      }
+    },
+    {
+      "scope": [
         "entity.name.function",
         "entity.name.type.class",
         "meta.type",
@@ -283,8 +298,16 @@
     },
     {
       "scope": [
+        "variable.language.this"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#b392f0"
+      }
+    },
+    {
+      "scope": [
         "string.quoted",
-        "string.regexp",
         "string.template",
         "string.interpolated",
         "entity.name.tag",
@@ -302,6 +325,7 @@
       "scope": [
         "keyword",
         "storage.type",
+        "string.regexp",
         "storage.modifier",
         "storage.control.clojure",
         "punctuation.definition.template-expression",
@@ -315,7 +339,9 @@
       }
     },
     {
-      "scope": ["variable.other.constant.property"],
+      "scope": [
+        "variable.other.constant.property"
+      ],
       "settings": {
         "foreground": "#cca24e"
       }
