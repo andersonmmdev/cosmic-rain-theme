@@ -272,15 +272,6 @@
     },
     {
       "scope": [
-        "meta.type.parameters.ts"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#b392f0"
-      }
-    },
-    {
-      "scope": [
         "entity.name.function",
         "entity.name.type.class",
         "meta.type",
@@ -290,6 +281,7 @@
         "meta.function-call",
         "meta.tag.attributes",
         "meta.property-value.css",
+        "punctuation.decorator.ts",
         "support.constant.property-value.css"
       ],
       "settings": {
@@ -298,7 +290,8 @@
     },
     {
       "scope": [
-        "variable.language.this"
+        "variable.language.this",
+        "meta.type.parameters.ts"
       ],
       "settings": {
         "fontStyle": "italic",

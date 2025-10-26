@@ -245,6 +245,7 @@ interface Repository<T> {
   delete(id: string): Promise<void>;
 }
 
+@Decorator()
 class UserRepository implements Repository<User> {
   async find(id: string): Promise<User | null> {
     return null;
@@ -270,3 +271,10 @@ type Required<T> = {
 
 type StringOrNumber = string | number;
 type UserWithTimestamp = User & { timestamp: Date };
+
+function Decorator(): (
+  target: typeof UserRepository,
+  context: ClassDecoratorContext<typeof UserRepository>
+) => void | typeof UserRepository {
+  throw new Error("Function not implemented.");
+}

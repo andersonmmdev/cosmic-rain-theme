@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Cosmic Rain Dark",
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "catppuccin-latte",
   "workbench.startupEditor": "none",
   "workbench.layoutControl.enabled": false,
   "workbench.activityBar.location": "hidden",
@@ -46,5 +46,5 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.semanticHighlighting.enabled": false,
   "editor.bracketPairColorization.enabled": true,
-  "symbols.hidesExplorerArrows": true
+  "catppuccin-icons.hidesExplorerArrows": true
 }
